@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFF51A9</color>
+    <color name="colorPrimaryDark">#FF802955</color>
+    <color name="colorAccent">#FFFF51A9</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#FF000000</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="pinkCardColor">#ffccff</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="softGray">#e8e8e8</color>
+
+    <color name="color_dark_gray">#767676</color>
+    <color name="color_light_gray">#F2F2F2</color>
+    <color name="edtBgColor">#F9FAFB</color>
+
+    <color name="pdfTopBgColor">#68AD4F</color>
+    <color name="pdfBottomBgColor">#CEDFC8</color>
+    <color name="pdfLabelColor">#68AD4F</color>
+
+
+
+    <color name="bgStartColor">#FF51A9</color>
+    <color name="bgEndColor">#802955</color>
+
+    <color name="signBtnStartColor">#FF117f</color>
+    <color name="signBtnEndColor">#E2519A</color>
+
+    <color name="signUpColor">#8B98B4</color>
+
+
+    <color name="colorRecieveText">#00FF00</color>
+    <color name="colorSendText">#82CAFF</color>
+    <color name="colorStatusText">#FFDB58</color>
+</resources>

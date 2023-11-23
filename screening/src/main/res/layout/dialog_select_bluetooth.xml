@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_top_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/top_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.95" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_bluetooth_pair_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dimen_10dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_bottom_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_top_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_no_device_found"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:visibility="gone"
+        android:text="@string/no_bluetooth_device_found"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/img_bottom_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_top_background"
+        app:layout_constraintVertical_bias="0.45" />
+
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/grpProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:constraint_referenced_ids="progressBar,txtProgressText,viewProgressBg" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_30_dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/screening_process"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back"
+        app:layout_constraintEnd_toStartOf="@+id/img_home"
+        app:layout_constraintStart_toEndOf="@+id/img_back"
+        app:layout_constraintTop_toTopOf="@+id/img_back" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_top_home"
+        app:layout_constraintBottom_toBottomOf="@+id/img_back"
+        app:layout_constraintEnd_toEndOf="@+id/img_top_background"
+        app:layout_constraintTop_toTopOf="@+id/img_back" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_home"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/img_home"
+        app:layout_constraintStart_toStartOf="@+id/img_home"
+        app:layout_constraintTop_toBottomOf="@+id/img_home" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_bottom_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bottom_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.95" />
+
+    <View
+        android:id="@+id/viewProgressBg"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:alpha="0.5"
+        android:visibility="gone"
+        android:background="@color/black" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/dimen_10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rv_bluetooth_pair_list"
+        app:layout_constraintEnd_toEndOf="@+id/rv_bluetooth_pair_list"
+        app:layout_constraintStart_toStartOf="@+id/rv_bluetooth_pair_list"
+        app:layout_constraintTop_toTopOf="@+id/rv_bluetooth_pair_list" />
+
+    <TextView
+        android:id="@+id/txtProgressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/dimen_10dp"
+        android:padding="@dimen/dimen_10dp"
+        android:text="@string/please_wait_while_we_fetch_bluetooth_devices_for_you"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/rv_bluetooth_pair_list"
+        app:layout_constraintStart_toStartOf="@+id/rv_bluetooth_pair_list"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

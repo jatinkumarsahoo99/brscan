@@ -1,0 +1,227 @@
+<resources>
+    <!--<string name="app_name" translatable="false">BR-Scan</string>-->
+
+    <!-- Navigation Drawer Strings -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title"></string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_screening_history">Screening History</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_disclaimer">Disclaimer</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_my_account" translatable="false">My Account</string>
+    <string name="menu_my_reports" translatable="false">My Reports</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+
+    <string-array name="language_list">
+        <item>English</item>
+        <item>ગુજરાતી</item>
+        <item>हिंदी</item>
+        <item>日本語</item>
+        <item>ارابيكا</item>
+        <item>eesti keel</item>
+        <item>Deutsche</item>
+        <item>中国人</item>
+        <item>한국어</item>
+    </string-array>
+
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unspecified</item>
+        <item>UnKnown</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_select_item">Select Item</string>
+    <string name="title_forgot_password">Forgot Password</string>
+
+    <string name="title_sign_in" translatable="false">Sign In</string>
+    <string name="title_sign_up" translatable="false">Sign Up</string>
+    <string name="title_otp_verification" translatable="false">OTP VERIFICATION</string>
+    <string name="title_register" translatable="false">Register</string>
+    <string name="title_profile" translatable="false">Profile</string>
+    <string name="title_my_reports" translatable="false">My Reports</string>
+    <string name="title_my_account" translatable="false">My Account</string>
+    <string name="title_steps">Screening Process</string>
+    <string name="title_self_examination">Self Examination</string>
+    <string name="title_end_procedure">End Procedure</string>
+    <string name="title_what_is_breast_cancer">What is Breast Cancer?</string>
+    <string name="title_start_self_examination">Start Self Breast Examination</string>
+    <string name="title_know_your_risk">Know your Breast Cencer risk</string>
+
+
+    <string name="title_step_1" translatable="false">Choose a Dark Room With Mirror</string>
+    <string name="title_step_2" translatable="false">Turn on BR-Scan</string>
+    <string name="title_step_3" translatable="false">Capture Image of Left Breast from Top side</string>
+    <string name="title_step_4" translatable="false">Capture Image of Left Breast from Left side</string>
+    <string name="title_step_5" translatable="false">Capture Image of Left Breast from Right side</string>
+    <string name="title_step_6" translatable="false">Capture Image of Right Breast from Top side</string>
+    <string name="title_step_7">Capture Image of Right Breast from Left side</string>
+    <string name="title_step_8">Capture Image of Right Breast from Right side</string>
+
+    <string name="title_step_9">Step 9: (for Right Breast)</string>
+    <string name="title_step_10">Step 10: (for Right Breast)</string>
+    <string name="title_step_11">Step 11: (for Left Breast)</string>
+    <string name="title_step_12">Step 12: (for Left Breast)</string>
+    <string name="title_step_13">Step 13: (for Left Breast)</string>
+    <string name="title_step_14">Step 14: (for Left Breast)</string>
+
+    <string name="action_get_started" translatable="false">Get Started</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_signup_login">Already have an account? Sign In</string>
+    <string name="action_login_signup">Don\'t have an account? Sign Up</string>
+    <string name="action_login">Login</string>
+    <string name="action_register">Register</string>
+    <string name="action_verify_otp" translatable="false">Verify OTP</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_next">Next</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_done">Done</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="action_send_link">Email Password Link</string>
+    <string name="action_skip" translatable="false">Skip</string>
+    <string name="action_change_profile_pic" translatable="false">Change Profile Picture</string>
+    <string name="action_upload_profile_pic" translatable="false">Upload Picture</string>
+
+    <string name="message_please_wait">Please Wait</string>
+    <string name="message_authenticating">Authenticating</string>
+    <string name="message_creating_user">Creating User</string>
+    <string name="message_preparing_report">Preparing Report</string>
+    <string name="message_please_accept_policy">Please Accept Terms &amp; Conditions</string>
+    <string name="message_welcome">"Welcome !"</string>
+    <string name="message_terms_condition">I have read and agree to the Terms and Conditions</string>
+    <string name="message_sure_to_retake_image">Do you want to retake this Image?</string>
+    <string name="message_sure_to_exit_app">Do you want to exit from the App?</string>
+    <string name="message_report_downloaded">Report Downloaded Successfully, Go to History To See Report</string>
+    <string name="message_sending_mail">Sending Email to Reset Password</string>
+
+    <string name="message_top_bottom">Capture image from Top Side while keep your BR-Scan 1.0 pressed tightly against your breast screen from Bottom Side</string>
+    <string name="message_bottom_top">Capture image from Bottom Side while keep your BR-Scan 1.0 pressed tightly against your breast screen from Top Side</string>
+    <string name="message_left_right">Capture image from Left Side while keep your BR-Scan 1.0 pressed tightly against your breast screen from Right Side</string>
+    <string name="message_right_left">Capture image from Right Side while keep your BR-Scan 1.0 pressed tightly against your breast screen from Left Side</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state" translatable="false">State</string>
+    <string name="hint_country" translatable="false">Country</string>
+    <string name="hint_zip">Zip Code</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_age" translatable="false">Age (years)</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_height">Height (cm)</string>
+    <string name="hint_weight">Weight (kg)</string>
+
+    <string name="error_internet_connection">Internet Not Connected</string>
+    <string name="error_common_message">Something went Wrong, Please Try Again.</string>
+    <string name="error_invalid_username">Not a valid username</string>
+
+    <string name="error_enter_name">Please Enter Name</string>
+    <string name="error_enter_phone">Please Enter Mobile Number</string>
+    <string name="error_enter_email">Please Enter Email Address</string>
+    <string name="error_enter_password">Please Enter Password</string>
+    <string name="error_enter_confirm_password">Please Enter Confirm Password</string>
+    <string name="error_enter_city">Please Enter City</string>
+    <string name="error_enter_gender">Please Select Gender</string>
+    <string name="error_enter_dob">Please Select Date of Birth</string>
+    <string name="error_enter_height">Please Enter Height</string>
+    <string name="error_enter_weight">Please Enter Weight</string>
+    <string name="error_enter_first_name">Please Enter First Name</string>
+    <string name="error_enter_last_name">Please Enter Last Name</string>
+
+    <string name="error_invalid_password">Password must be greater than 8 characters</string>
+    <string name="error_password_mismatch">Confirm Password is Mismatch</string>
+    <string name="error_phone_length">Mobile Number Should Be 10 Digits</string>
+    <string name="error_valid_phone">Please Enter Valid Mobile Number</string>
+    <string name="error_valid_email">Please Enter Valid Email Address (includes @, .com)</string>
+    <string name="error_enter_proper_dob">Please Select Proper Date of Birth</string>
+    <string name="error_valid_height">Please Enter Valid Height in Cm</string>
+    <string name="error_valid_weight">Please Enter Valid Weight in Kg</string>
+
+    <string name="error_login_failed">Login failed</string>
+    <string name="error_user_already_exists">User already Exists</string>
+    <string name="error_user_not_exists">User not Exists, Please Try Again...</string>
+    <string name="error_report_not_exists">Report not Exists, Try Later</string>
+
+
+    <string name="pdf_title" translatable="false">Breast Screening Report</string>
+    <string name="pdf_report_no" translatable="false">Report Identification no: BR%1$s</string>
+    <string name="pdf_subject_details" translatable="false">Subject Details:</string>
+    <string name="pdf_report_date" translatable="false">Date: %1$s</string>
+    <string name="pdf_report_time" translatable="false">Time: %1$s</string>
+    <string name="pdf_user_name" translatable="false">User Name: %1$s</string>
+    <string name="pdf_patient_name" translatable="false">Patient Name: %1$s</string>
+    <string name="pdf_user_age" translatable="false">Age: %1$s Year(s)</string>
+    <string name="pdf_user_sex" translatable="false">Gender: %1$s</string>
+    <string name="pdf_user_weight" translatable="false">Weight: %1$s Kg</string>
+    <string name="pdf_user_height" translatable="false">Height: %1$s cm</string>
+
+    <string name="pdf_scan_images" translatable="false">Screened Images: </string>
+    <string name="pdf_left_breast" translatable="false">a) Left Breast Screening Images </string>
+    <string name="pdf_right_breast" translatable="false">b) Right Breast Screening Images </string>
+
+    <string name="pdf_top_side" translatable="false">i. Top Side Image</string>
+    <string name="pdf_left_side" translatable="false">ii. Left Side Image</string>
+    <string name="pdf_right_side" translatable="false">iii. Right Side Image</string>
+    <string name="event_title" translatable="false">Your Periodic Breast Screening Time</string>
+    <string name="nearby_map_uri" translatable="false">geo:0,0?q=Gynaecologists</string>
+    <string name="google_map_uri" translatable="false">com.google.android.apps.maps</string>
+    <string name="pdf_end_report" translatable="false">Disclaimer: This breast screening report generated is the interpretation of visual parameters/representation. Hence, it can vary in respect of time,</string>
+    <string name="pdf_end_report_line_2" translatable="false">image capturing, focusing &amp; screening ability. Please consult your doctor/gynecologists/ consaltant / ancologist for diagnosis &amp; further screening .</string>
+
+
+    <!--<string name="pdf_copyright" translatable="false">© 2021-23 by D3S Healthcare Technologies.</string>-->
+    <string name="pdf_copyright" translatable="false">Powered by </string>
+
+
+    <string name="error_under_maintenance" translatable="false">Under Maintenance</string>
+
+
+    <string name="message_start_bottom" translatable="false">An early abnormalities screening, \n Portable device for your breast</string>
+    <string name="capturing_image">Capturing Image</string>
+    <string name="processing_image">Processing Image</string>
+    <string name="screening_process">Screening Process</string>
+    <string name="connect_to_bluetooth">connect to bluetooth</string>
+    <string name="turn_on_the_bluetooth_connection_amp_n_pair_the_br_scan_light_device_with_phone"><![CDATA[Turn on the Bluetooth Connection & \n Pair the BR-Scan Light Device with phone]]></string>
+    <string name="please_wait_while_we_fetch_bluetooth_devices_for_you">Please wait while we fetch bluetooth devices for you</string>
+    <string name="welcome_to_the_br_scan">Welcome to the BR-Scan</string>
+    <string name="login_screen_message">A Portable Breast Abnormalities<br />Screening Device for Your Breast</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="patient_list">Patient List</string>
+    <string name="no_bluetooth_device_found">Currently we are not able to detect any BR-Scan device nearby, Please retry by swithing on your BR-Scan Device</string>
+    <string name="title_activity_demo">DemoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="permission_tip" translatable="false">You have already denied permission access. Go to the Settings page to turn on permissions</string>
+    <string name="dialog_contact_title" translatable="false">Contact me:</string>
+    <string name="dialog_contact_message" translatable="false">765067602@qq.com</string>
+    <string name="upload_patient_image">Upload Patient Image</string>
+    <string name="patient_registration">patient registration</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="back">Back</string>
+</resources>

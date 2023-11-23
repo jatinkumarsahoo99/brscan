@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/whiteCardColor"
+    android:layout_margin="@dimen/dimen_10dp"
+    android:elevation="@dimen/padding_5dp"
+    app:cardCornerRadius="@dimen/padding_5dp">
+
+    <LinearLayout
+        android:id="@+id/rel_comfirm_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:padding="@dimen/dimen_10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_confirm_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            style="@style/AppTheme.BrScan.SubTitle"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_comfirm_dialog"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_confirm_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                style="@style/AppTheme.BrScan.SignInButtons"
+                android:text="@string/action_yes"
+                android:layout_margin="@dimen/dimen_10dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_confirm_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                style="@style/AppTheme.BrScan.SignInButtons"
+                android:text="@string/action_no"
+                android:layout_margin="@dimen/dimen_10dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

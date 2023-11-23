@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/whiteCardColor"
+    android:elevation="@dimen/dimen_10dp"
+    app:cardCornerRadius="@dimen/padding_5dp"
+    android:layout_margin="@dimen/padding_5dp">
+
+    <RelativeLayout
+        android:id="@+id/rel_comfirm_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:padding="@dimen/dimen_10dp">
+
+        <TextView
+            android:id="@+id/txt_confirm_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            style="@style/AppTheme.BrScan.SubTitle"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm_yes"
+            android:layout_below="@+id/txt_confirm_message"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_ok"
+            style="@style/AppTheme.BrScan.SignInButtons"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
